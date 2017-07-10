@@ -1,6 +1,6 @@
 function setCookie(c_name,value,expiredays){
 var extime = new Date().getTime();
-var cltime = new Date(extime + (60*60*24*1000*expiredays);
+var cltime = new Date(extime + (60*60*24*1000*expiredays));
 var exdate =toUTCstring();
 var s="";
 s += c_name +"="+ escape(value);
@@ -30,3 +30,4 @@ if(last_date){
  document.getElementById('cookie').textContent. = 'ようこそ';
  var current_time =new Date();
  setCookie('lastDate', current_time.yoString(), 7);
+  
