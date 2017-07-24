@@ -36,7 +36,10 @@ if(last_date){
   function getFileName(){
  return window.location.href.split('/').pop();
  }
+   
   var thmubs =document.querySelectorAll('.thumb');
    for(idx in thmubs){
     thmubs[idx].onclick=function(){
      document.getElementById("bigimg").src = this.dataset.image+'.png';
+    }
+   }
