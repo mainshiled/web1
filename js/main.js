@@ -29,5 +29,7 @@ if(last_date){
  }else{
  document.getElementById('cookie').textContent. = 'ようこそ';
  var current_time =new Date();
- setCookie('lastDate', current_time.yoString(), 7);
-  
+ setCookie('lastDate', current_time.toString(), 7);
+  function getFileName(){
+ return window.location.href.split('/').pop();
+ }
