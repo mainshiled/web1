@@ -1,3 +1,6 @@
+var url = location.herf;
+  alert(url);
+
 function setCookie(c_name,value,expiredays){
 var extime = new Date().getTime();
 var cltime = new Date(extime + (60*60*24*1000*expiredays));
@@ -33,3 +36,4 @@ if(last_date){
   function getFileName(){
  return window.location.href.split('/').pop();
  }
+  
